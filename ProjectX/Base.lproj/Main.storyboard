@@ -22,21 +22,21 @@
                                 <rect key="frame" x="64.5" y="413.5" width="285" height="69"/>
                                 <inset key="titleEdgeInsets" minX="20" minY="0.0" maxX="0.0" maxY="0.0"/>
                                 <state key="normal" title="Sign in with Google" backgroundImage="Google">
-                                    <color key="titleColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                    <color key="titleColor" cocoaTouchSystemColor="darkTextColor"/>
                                 </state>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="leading" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="57r-OU-OJL">
                                 <rect key="frame" x="64.5" y="492.5" width="285" height="69"/>
                                 <inset key="titleEdgeInsets" minX="20" minY="0.0" maxX="0.0" maxY="0.0"/>
                                 <state key="normal" title="Sign in with Facebook" backgroundImage="FB">
-                                    <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                    <color key="titleColor" cocoaTouchSystemColor="groupTableViewBackgroundColor"/>
                                 </state>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="leading" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Q80-CM-xIa">
                                 <rect key="frame" x="64.5" y="571.5" width="285" height="69"/>
                                 <inset key="contentEdgeInsets" minX="20" minY="0.0" maxX="0.0" maxY="0.0"/>
                                 <state key="normal" title="Sign in with Email" backgroundImage="Email">
-                                    <color key="titleColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                    <color key="titleColor" cocoaTouchSystemColor="darkTextColor"/>
                                 </state>
                             </button>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Login or create an account" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="9X5-yW-xJe">
@@ -77,6 +77,73 @@ SQUID                                                  </string>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="139" y="113"/>
+        </scene>
+        <!--View Controller-->
+        <scene sceneID="z4e-B4-qGw">
+            <objects>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="k8K-ow-RLn" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+                <viewController id="fn0-2V-nsu" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="V2A-Bq-tUr">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="akw-9J-fzb">
+                                <rect key="frame" x="147.5" y="199" width="119" height="80.5"/>
+                                <string key="text">SOCIAL
+SQUID</string>
+                                <fontDescription key="fontDescription" name="GillSans" family="Gill Sans" pointSize="35"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" spacing="10" translatesAutoresizingMaskIntoConstraints="NO" id="FK0-dP-dqt">
+                                <rect key="frame" x="64.5" y="319.5" width="285" height="257.5"/>
+                                <subviews>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Login or Create an Account" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="2jy-SU-RP4">
+                                        <rect key="frame" x="0.0" y="0.0" width="285" height="20.5"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                        <nil key="textColor"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="N6v-kp-2wY">
+                                        <rect key="frame" x="0.0" y="30.5" width="285" height="69"/>
+                                        <state key="normal" title="Sign in with Google" backgroundImage="Google">
+                                            <color key="titleColor" systemColor="labelColor" cocoaTouchSystemColor="darkTextColor"/>
+                                        </state>
+                                    </button>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="fg4-HO-ZG7">
+                                        <rect key="frame" x="0.0" y="109.5" width="285" height="69"/>
+                                        <state key="normal" title="Sign in with Facebook" backgroundImage="FB">
+                                            <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                        </state>
+                                    </button>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="6QB-US-gt9">
+                                        <rect key="frame" x="0.0" y="188.5" width="285" height="69"/>
+                                        <state key="normal" title="Sign in with Email" backgroundImage="Email">
+                                            <color key="titleColor" cocoaTouchSystemColor="darkTextColor"/>
+                                        </state>
+                                    </button>
+                                </subviews>
+                            </stackView>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Background" translatesAutoresizingMaskIntoConstraints="NO" id="rmi-Ha-K9N">
+                                <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                            </imageView>
+                        </subviews>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                        <constraints>
+                            <constraint firstItem="akw-9J-fzb" firstAttribute="centerX" secondItem="V2A-Bq-tUr" secondAttribute="centerX" id="2c1-Yh-eKE"/>
+                            <constraint firstItem="rmi-Ha-K9N" firstAttribute="top" secondItem="V2A-Bq-tUr" secondAttribute="top" id="5kE-vT-yYU"/>
+                            <constraint firstItem="FK0-dP-dqt" firstAttribute="centerX" secondItem="V2A-Bq-tUr" secondAttribute="centerX" id="7bM-2j-8mW"/>
+                            <constraint firstItem="rmi-Ha-K9N" firstAttribute="leading" secondItem="V2A-Bq-tUr" secondAttribute="leading" id="gQM-Z3-363"/>
+                            <constraint firstAttribute="bottom" secondItem="rmi-Ha-K9N" secondAttribute="bottom" id="gom-Kt-uqK"/>
+                            <constraint firstAttribute="trailing" secondItem="rmi-Ha-K9N" secondAttribute="trailing" id="mgE-bm-ICt"/>
+                            <constraint firstItem="FK0-dP-dqt" firstAttribute="top" secondItem="akw-9J-fzb" secondAttribute="bottom" constant="40" id="uar-aA-mpe"/>
+                            <constraint firstItem="FK0-dP-dqt" firstAttribute="centerY" secondItem="V2A-Bq-tUr" secondAttribute="centerY" id="xkK-mh-gPU"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="aUO-oJ-qcL"/>
+                    </view>
+                </viewController>
+            </objects>
+            <point key="canvasLocation" x="818.84057971014499" y="111.83035714285714"/>
         </scene>
     </scenes>
     <resources>
