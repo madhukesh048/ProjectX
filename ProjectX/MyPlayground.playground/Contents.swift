@@ -43,3 +43,21 @@ func addFourTo(x:Int) -> Int{
 
 var result = addFourTo(x: 20)
 print(result)
+
+//Class with methods
+class Spaceship{
+    var feulLevel = 100
+    var name=""
+    
+    func cruise() {
+        print("Cruising is initiated for \(name)")
+    }
+    func thrust() {
+        print("Rocket Thrusters initiated for \(name)")
+    }
+}
+
+var myShip:Spaceship = Spaceship()
+myShip.name = "Madhu"
+myShip.cruise()
+myShip.thrust()
